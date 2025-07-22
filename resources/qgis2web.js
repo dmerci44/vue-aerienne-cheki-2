@@ -9,7 +9,7 @@ var map = new ol.Map({
 });
 
 //initial view - epsg:3857 coordinates if not "Match project CRS"
-map.getView().fit([3364526.889581, 179196.536395, 3365281.808219, 179557.024552], map.getSize());
+map.getView().fit([3364683.594424, 179196.751199, 3365125.102905, 179556.809732], map.getSize());
 
 ////small screen definition
     var hasTouchScreen = map.getViewport().classList.contains('ol-touch');
@@ -534,7 +534,7 @@ geolocation.setTracking(true);
 //layer search
 
 var searchLayer = new SearchLayer({
-    layer: lyr_cheki2nuv_3,
+    layer: lyr_cheki2nuv_2,
     colName: 'uj',
     zoom: 10,
     collapsed: true,
